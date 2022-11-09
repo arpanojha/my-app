@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Card2 = props => {
 	const [modal, setModal] = useState(false);
@@ -56,7 +57,7 @@ const Card2 = props => {
 							</a>
 
 							<button className="close-modal btn_shadow" onClick={toggleModal}>
-								<i class="fas fa-times"></i>
+								<AiOutlineClose size={40} />
 							</button>
 
 							{/*---------Leave Message----------  */}
